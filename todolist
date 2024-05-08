@@ -1,0 +1,37 @@
+1. Przygotowanie lokalnego środowiska roboczego
+ Zainstaluj niezbędne narzędzia lokalnie (Terraform).
+ Skonfiguruj dostęp do AWS (AWS CLI, IAM roles).
+2. Zarządzanie kodem źródłowym
+ Utwórz repozytorium Git do przechowywania kodu projektu.
+ Skonfiguruj .gitignore dla Terraform i plików projektowych.
+3. Konfiguracja Terraform
+ Zdefiniuj provider AWS w Terraform.
+ Utwórz pliki konfiguracyjne Terraform dla zasobów AWS (VPC, EC2, Security Groups).
+ Sprawdź konfigurację Terraform przez terraform plan.
+ Zastosuj konfigurację za pomocą terraform apply do stworzenia maszyn EC2 i niezbędnych zasobów sieciowych na AWS.
+4. Instalacja i konfiguracja Docker na serwerach AWS
+ Po utworzeniu maszyn EC2, zaloguj się do każdej z nich.
+ Zainstaluj Docker na każdej maszynie EC2.
+ Skonfiguruj Docker, aby automatycznie uruchamiał się po restarcie systemu.
+5. Docker - Skrypty Python i Baza Danych
+ Napisz Dockerfile dla kontenera z Pythonem i bazą danych.
+ Zbuduj obrazy Docker na serwerze z Pythonem.
+ Uruchom kontenery Docker z bazą danych i skryptami Python.
+6.Docker - Grafana
+ Napisz Dockerfile dla kontenera z Grafaną.
+ Zbuduj obraz Docker na serwerze z Grafaną.
+ Uruchom kontener Docker z Grafaną.
+7.Integracja z API pogodowym
+ Wybierz i zintegruj API pogodowe (np. OpenWeatherMap).
+ Zaimplementuj skrypt Python do pobierania i przetwarzania danych z API.
+ Zapisz dane do bazy danych w kontenerze Docker.
+8.Konfiguracja dashboardów Grafana
+ Skonfiguruj dashboardy w Grafanie dla różnych danych pogodowych.
+ Ustaw alerty w Grafanie dla warunków ekstremalnych.
+9. Testowanie i optymalizacja
+ Przetestuj działanie aplikacji, wydajność i stabilność kontenerów.
+ Zoptymalizuj zapytania do bazy danych i działanie skryptów Python.
+10. Dokumentacja i wdrażanie
+ Napisz szczegółową dokumentację użytkownika i techniczną.
+ Przygotuj system do produkcyjnego wdrożenia.
+ Monitoruj działanie systemu po wdrożeniu.
