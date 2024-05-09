@@ -1,0 +1,55 @@
+# Pliki specyficzne dla systemu operacyjnego
+*.log
+*.tmp
+*.temp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Środowiska wirtualne Pythona
+venv/
+env/
+*.pyc
+__pycache__/
+
+# Pliki Docker
+**/node_modules/
+**/jspm_packages/
+docker-compose.override.yml
+
+# Pliki specyficzne dla Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfplan
+terraform.tfvars
+crash.log
+override.tf
+override.tf.json
+
+# Klucze SSH i pliki konfiguracyjne
+*.pem
+*.key
+config.yaml
+credentials
+secret.yaml
+
+# Pliki IDE i edytorów
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Pliki binarne i inne zależności
+bin/
+obj/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Inne pliki i foldery
+tmp/
+temp/
+logs/
+output/
