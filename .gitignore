@@ -24,7 +24,7 @@ docker-compose.override.yml
 *.tfvars
 *.tfplan
 terraform.tfvars
-.terraform.lock.hcl
+*.terraform.lock.hcl
 crash.log
 override.tf
 override.tf.json
