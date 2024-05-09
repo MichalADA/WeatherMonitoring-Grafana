@@ -1,9 +1,9 @@
 1. Przygotowanie lokalnego środowiska roboczego
- Zainstaluj niezbędne narzędzia lokalnie (Terraform).
- Skonfiguruj dostęp do AWS (AWS CLI, IAM roles).
+ Zainstaluj niezbędne narzędzia lokalnie (Terraform). do
+ Skonfiguruj dostęp do AWS (AWS CLI, IAM roles). do
 2. Zarządzanie kodem źródłowym
- Utwórz repozytorium Git do przechowywania kodu projektu.
- Skonfiguruj .gitignore dla Terraform i plików projektowych.
+ Utwórz repozytorium Git do przechowywania kodu projektu. do 
+ Skonfiguruj .gitignore dla Terraform i plików projektowych. 
 3. Konfiguracja Terraform
  Zdefiniuj provider AWS w Terraform.
  Utwórz pliki konfiguracyjne Terraform dla zasobów AWS (VPC, EC2, Security Groups).
