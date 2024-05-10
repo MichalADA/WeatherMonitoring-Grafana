@@ -11,6 +11,7 @@ venv/
 env/
 *.pyc
 __pycache__/
+*.config.py
 
 # Pliki Docker
 **/node_modules/
