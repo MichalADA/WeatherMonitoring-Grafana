@@ -1,0 +1,5 @@
+api_url = "URL_DO_TWOJEGO_API"
+api_key = "TWÓJ_KLUCZ_API"
+influxdb_url = "http://ADRES_IP_INFLUXDB:8086"
+influxdb_token = "your-token"
+influxdb_org = "your-org"
